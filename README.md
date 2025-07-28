@@ -83,3 +83,38 @@ stable-diffusion-gallery/
   "created_at": "2024-01-20"
 }
 ```
+
+### keywords.json
+日本語キーワードと英語プロンプトの対応表：
+
+```json
+{
+  "keywords": {
+    "風景": ["landscape", "scenery", "nature"],
+    "アニメ": ["anime", "manga", "illustration"]
+  }
+}
+```
+## **サーバーの起動**
+
+   ```bash
+   # Python 3の場合
+   python -m http.server 8000
+   
+   # Python 2の場合
+   python -m SimpleHTTPServer 8000
+   
+   # Node.jsの場合
+   npx serve .
+   ```
+### **ブラウザでアクセス**
+   ```
+   http://localhost:8000
+   ```
+
+## 更新履歴
+### v1.0 (2025-07-29)
+- 初回リリース
+- 基本的な画像ギャラリー機能
+- 日本語キーワード検索機能
+- モデル管理機能
