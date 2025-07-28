@@ -102,15 +102,17 @@ stable-diffusion-gallery/
    # Python 3の場合
    python -m http.server 8000
    
-   # Python 2の場合
-   python -m SimpleHTTPServer 8000
-   
    # Node.jsの場合
    npx serve .
    ```
 ### **ブラウザでアクセス**
+python
    ```
    http://localhost:8000
+   ```
+npx
+   ```
+   http://localhost:3000
    ```
 
 ## 更新履歴
