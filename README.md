@@ -56,3 +56,30 @@ stable-diffusion-gallery/
 ├── README.md              # このファイル
 └── JSON_EDITING_MANUAL.md # JSON編集マニュアル
 ```
+## データ構造
+
+### images.json
+
+各画像は以下の情報を含みます：
+
+```json
+{
+  "id": "unique_image_id",
+  "filename": "image_file.png",
+  "title": "画像のタイトル",
+  "prompt": "English prompt used for generation",
+  "negative_prompt": "English negative prompt",
+  "model_name": "使用したモデル名",
+  "architecture": "SD 1.5",
+  "base_resolution": "512x512",
+  "specialty": "モデルなどに特徴などあれば",
+  "parameters": {
+    "steps": 20,
+    "cfg_scale": 7.5,
+    "seed": 123456789,
+    "sampler": "DPM++ 2M Karras"
+  },
+  "tags": ["日本語タグ1", "日本語タグ2"],
+  "created_at": "2024-01-20"
+}
+```
