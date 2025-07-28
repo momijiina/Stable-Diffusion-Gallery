@@ -1,6 +1,6 @@
 ※修正中、サンプル画像の追加をは気が向いたらします。
 # Stable Diffusion Gallery
-Stable Diffusionで作成した画像のプロンプトとネガティブプロンプトを保存・管理できる静的ウェブサイトです。<br/>
+Stable Diffusionで作成した画像のプロンプトとネガティブプロンプトを保存・管理・公開できる静的ウェブサイトです。<br/>
 レンタルサーバー等での使用を想定
 
 <img width="1907" height="694" alt="test" src="https://github.com/user-attachments/assets/2f642408-ffe2-4719-9901-dc6351d4b09a" />
