@@ -59,7 +59,7 @@ stable-diffusion-gallery/
 │   ├── images.json        # 画像データ
 │   └── keywords.json      # キーワード対応表
 ├── README.md              # このファイル
-└── JSON_EDITING_MANUAL.md # JSON編集マニュアル
+└── JSON_EDITING_MANUAL.md # JSON編集マニュアル(追加予定)
 ```
 ## データ構造
 
